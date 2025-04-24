@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --prime-color: #dd125c;
+  --secon-color: #162849;
+}
+
+body {
+  font-size: 0.85rem;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-weight: 600;
+  color: var(--secon-color);
+  border-bottom: 2px solid var(--secon-color);
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.form-section {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  background-color: white;
+  position: relative;
+}
+
+.btn-primary {
+  background-color: var(--prime-color);
+  border-color: var(--prime-color);
+}
+
+.btn-primary:hover {
+  background-color: #b50f49;
+  border-color: #a20d41;
+}
+
+.btn-success {
+  background-color: var(--secon-color);
+  border-color: var(--secon-color);
+}
+
+.btn-success:hover {
+  background-color: #0f1a33;
+  border-color: #0f1a33;
+}
+
+.book_h {
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+}
+
+.book_h span {
+  margin-right: 100px;
+}
+
+.form-control-plaintext {
+  padding: 0;
+}
+
+.section-title {
+  font-size: 14px;
+}
+ 
+.bms {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  padding: 0 0 26px 0;
+}
+.ll_b {
+  position: absolute;
+  right: 80px;
+  top: 20px;
+}

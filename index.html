@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking Form - Read Only</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+  
+</style>
+
+<body>
+  <div class="container mt-3">
+
+    <!-- Booking Header -->
+    <div class="form-section">
+      <h1 class="section-title bms">Booking Management System</h1>
+      <div class="row">
+        <div class="col-md-10">
+          <div class="form-control-plaintext book_h">
+            <span>Booking: xp123456</span>
+            <button class="btn btn-sm btn-success">Refresh</button>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="ll_b">
+            <div class="form-control-plaintext">Locked By:</div>
+            <div class="form-control-plaintext">Lead:</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Booking Info -->
+    <div class="form-section">
+      <h5 class="section-title">Booking Information</h5>
+      <div class="row g-2">
+        <div class="col-md-3"><div class="form-control-plaintext">PNR:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Booking Type:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Booking Status:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Book Done:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Age of Booking:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Website:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Provides:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">currency:</div></div>        
+        <div class="col-md-3"><div class="form-control-plaintext">Client IP:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">fare type :</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Inventry type:</div></div>
+      </div>
+    </div>
+
+    <!-- Booking Channels -->
+    <div class="form-section">
+      <h5 class="section-title">Total Booking By</h5>
+      <div class="row g-2">
+        <div class="col-md-4"><div class="form-control-plaintext">Email: 100</div></div>
+        <div class="col-md-4"><div class="form-control-plaintext">Phone: 100</div></div>
+        <div class="col-md-4"><div class="form-control-plaintext">Card: 100</div></div>
+        <div class="col-md-12 text-end"><button type="button" class="btn btn-sm btn-primary">Send Auth Email</button></div>
+      </div>
+    </div>
+
+    <!-- Charge Back Section -->
+    <div class="form-section">
+      <h5 class="section-title">Charge Back</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-sm text-center align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Charge Back ID</th>
+              <th>Transaction ID</th>
+              <th>Amount</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CB12345</td>
+              <td>TXN789012</td>
+              <td>$150.00</td>
+              <td>
+                <button class="btn btn-sm btn-outline-primary">Edit</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="btn btn-sm btn-success mt-3 float-end"> Add Charge Back </button>
+      </div>
+    </div>
+
+<!-- Billing Details -->
+<div class="form-section">
+    <h5 class="section-title mb-3">Billing Details</h5>
+  
+    <div class="table-responsive">
+      <table class="table table-bordered align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Zip</th>
+            <th>City</th>
+            <th>Email</th>
+            <th>Card No</th>
+            <th>Exp Date</th>
+            <th>CVV</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>123 Street</td>
+            <td>12345</td>
+            <td>New York</td>
+            <td>john@example.com</td>
+            <td>4462000000001234</td>
+            <td>12/25</td>
+            <td>123</td>
+            <td>NY</td>
+            <td>USA</td>
+            <td>+1 234 567 890</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Action Buttons -->
+    <div class="d-flex gap-2 mt-3 justify-content-end">
+      <button type="button" class="btn btn-primary">Edit</button>
+      <button type="button" class="btn btn-success">Add</button>
+    </div>
+  </div>
+  
+  
+
+    <!-- Passenger Table -->
+    <div class="form-section">
+      <h5 class="section-title">Passenger Details</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-sm text-center align-middle">
+          <thead class="table-light">
+            <tr>
+              <th>Title</th>
+              <th>First Name</th>
+              <th>Middle Name</th>
+              <th>Last Name</th>
+              <th>Gender</th>
+              <th>DOB</th>
+              <th>Type</th>
+              <th>Passport</th>
+              <th>Issued By</th>
+              <th>Nationality</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Example row, repeated -->
+            <tr>
+              <td>Mr.</td>
+              <td>John</td>
+              <td>Michael</td>
+              <td>Doe</td>
+              <td>Male</td>
+              <td>1990-01-01</td>
+              <td>Adult</td>
+              <td>ABC12345</td>
+              <td>USA</td>
+              <td>USA</td>
+              <td>
+                <button class="btn btn-sm btn-outline-primary">Edit</button>
+                <button class="btn btn-sm btn-outline-danger">Delete</button>
+              </td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+        <button class="btn btn-sm btn-success mt-3 float-end">Add Passenger</button>
+      </div>
+    </div>
+
+    <!-- Flight Info -->
+    <div class="form-section">
+      <h5 class="section-title">Flight Details</h5>
+      <div class="row g-2">
+        <div class="col-md-2"><div class="form-control-plaintext">Origin:</div></div>
+        <div class="col-md-2"><div class="form-control-plaintext">Departure:</div></div>
+        <div class="col-md-2"><div class="form-control-plaintext">Airline/Flight#:</div></div>
+        <div class="col-md-2"><div class="form-control-plaintext">Trip Type:</div></div>
+        <div class="col-md-2"><div class="form-control-plaintext">Dep Date:</div></div>
+        <div class="col-md-2"><div class="form-control-plaintext">Return Date:</div></div>
+      </div>
+    </div>
+
+    <!-- Segment Info -->
+    <div class="form-section">
+      <h5 class="section-title">Segment Details</h5>
+      <div class="row g-2">
+        <div class="col-md-3"><div class="form-control-plaintext">Origin:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Destination:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Dep Date:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Refundable:</div></div>
+        <div class="col-md-3"><div class="form-control-plaintext">Cabin:</div></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
