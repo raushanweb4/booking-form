@@ -220,18 +220,38 @@
 
 
 
-    <!-- Segment Info -->
-    <div class="form-section">
-      <h5 class="section-title">Segment Details</h5>
-      <div class="row g-2">
-        <div class="col-md-3"><div class="form-control-plaintext">Origin:</div></div>
-        <div class="col-md-3"><div class="form-control-plaintext">Destination:</div></div>
-        <div class="col-md-3"><div class="form-control-plaintext">Dep Date:</div></div>
-        <div class="col-md-3"><div class="form-control-plaintext">Refundable:</div></div>
-        <div class="col-md-3"><div class="form-control-plaintext">Cabin:</div></div>
-      </div>
-    </div>
+ <!-- Segment Info -->
+<div class="form-section">
+  <h5 class="section-title">Segment Details</h5>
+  <div class="table-responsive">
+    <table class="table table-bordered table-sm text-center align-middle">
+      <thead class="table-light">
+        <tr>
+          <th>Origin</th>
+          <th>Destination</th>
+          <th>Dep Date</th>
+          <th>Refundable</th>
+          <th>Cabin</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>New York</td>
+          <td>Los Angeles</td>
+          <td>2025-05-01</td>
+          <td>Yes</td>
+          <td>Economy</td>
+          <td>
+            <button class="btn btn-sm btn-primary">Edit</button>
+          </td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
   </div>
+</div>
+
 </body>
 
 </html>
