@@ -184,18 +184,41 @@
       </div>
     </div>
 
-    <!-- Flight Info -->
-    <div class="form-section">
-      <h5 class="section-title">Flight Details</h5>
-      <div class="row g-2">
-        <div class="col-md-2"><div class="form-control-plaintext">Origin:</div></div>
-        <div class="col-md-2"><div class="form-control-plaintext">Departure:</div></div>
-        <div class="col-md-2"><div class="form-control-plaintext">Airline/Flight#:</div></div>
-        <div class="col-md-2"><div class="form-control-plaintext">Trip Type:</div></div>
-        <div class="col-md-2"><div class="form-control-plaintext">Dep Date:</div></div>
-        <div class="col-md-2"><div class="form-control-plaintext">Return Date:</div></div>
-      </div>
-    </div>
+<!-- Flight Info (Table Version) -->
+<div class="form-section">
+  <h5 class="section-title">Flight Details</h5>
+  <div class="table-responsive">
+    <table class="table table-bordered table-sm text-center align-middle">
+      <thead class="table-light">
+        <tr>
+          <th>Origin</th>
+          <th>Departure</th>
+          <th>Airline/Flight#</th>
+          <th>Trip Type</th>
+          <th>Dep Date</th>
+          <th>Return Date</th>
+          <th>Action</th> <!-- Added column for action -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>New York</td>
+          <td>08:00 AM</td>
+          <td>Delta DL123</td>
+          <td>Round Trip</td>
+          <td>2025-05-01</td>
+          <td>2025-05-10</td>
+          <td>
+            <button class="btn btn-sm btn-primary">Edit</button>
+          </td> <!-- Edit action button -->
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
 
     <!-- Segment Info -->
     <div class="form-section">
